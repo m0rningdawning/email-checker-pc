@@ -3,6 +3,9 @@
 This is a small application written in JS with Imap and mailparser modules that reads and saves raw e-mail data to txt files. The app utilizes the node-notifier module to handle notifications.
 
 ## Compilation  
+
+Before the compilation run `npm install` to install all dependencies.
+
 Windows:  
 `npx pkg@4.5.1 -t node14-win-x64 -o reader-windows.exe -d reader.js`
 
