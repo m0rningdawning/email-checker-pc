@@ -1,0 +1,29 @@
+{
+  "name": "email-checker",
+  "version": "1.0.0",
+  "description": "A small app that checks emails.",
+  "main": "reader.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pavlo Korolov",
+  "license": "MIT",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "imap": "^0.8.19",
+    "mailparser": "^3.6.4",
+    "node-notifier": "^10.0.1" 
+  },
+  "pkg": {
+    "scripts": "reader.js",
+    "targets": [
+      "node14-linux",
+      "node14-macos",
+      "node14-win"
+    ],
+    "outputPath": "dist/"
+  },
+  "engines": {
+    "node": "14.x"
+  }
+}
