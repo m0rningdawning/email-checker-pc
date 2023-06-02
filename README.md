@@ -1,6 +1,6 @@
 # email-checker
 
-This is a small application written in JS with Imap and mailparser modules that reads and saves raw e-mail data to txt files.
+This is a small application written in JS with Imap and mailparser modules that reads and saves raw e-mail data to txt files. The app utilizes the node-notifier module to handle notifications.
 
 ## Compilation  
 Windows:  
