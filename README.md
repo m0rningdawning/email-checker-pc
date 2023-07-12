@@ -6,13 +6,13 @@ This is a small application written in JS with Imap and mailparser modules that 
 
 Before the compilation run `npm install` to install all dependencies.
 
-Windows:  
+- Windows:  
 `npx pkg@4.5.1 -t node14-win-x64 -o reader-windows.exe -d reader.js`
 
-Linux:  
+- Linux:  
 `npx pkg@4.5.1 -t node14-linux-x64 -o reader-linux -d reader.js`
 
-MacOS:  
+- MacOS:  
 `npx pkg@4.5.1 -t node14-macos-x64 -o reader-macos -d reader.js`
 
 Alternatively, you can run the application using Node without the need to compile it:  
@@ -20,7 +20,7 @@ Alternatively, you can run the application using Node without the need to compil
 
 ## How to use  
 
-- Open "config.json" file and modify the info to access your mailbox.
+1. Open "config.json" file and modify the info to access your mailbox.
 
 ### Config code with explanations:  
 
@@ -35,13 +35,13 @@ Alternatively, you can run the application using Node without the need to compil
 }
 ```
 
-- Choose your executable and start an app.
+2. Choose your executable and start an app.
 
 - On windows you can run the .vbs file to open the app with no console.
 
 - Fetched emails will be saved in the "mail" directory. The parsed version of fetched emails will be stored in the "regular" subdirectory, while the raw data will be stored in the "raw" subdirectory.
 
-- Enjoy!
+3. Enjoy!
 
 ## Credits
 Inspired by:  
