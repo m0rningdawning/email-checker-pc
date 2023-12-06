@@ -2,6 +2,11 @@
 
 This is a small application written in JS with Imap and mailparser modules that reads and saves raw e-mail data to txt files. The app utilizes the node-notifier module to handle notifications.
 
+![GitHub language count](https://img.shields.io/github/languages/count/m0rningdawning/email-checker-pc)
+![GitHub top language](https://img.shields.io/github/languages/top/m0rningdawning/email-checker-pc) 
+![GitHub last commit](https://img.shields.io/github/last-commit/m0rningdawning/email-checker-pc)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+
 ## Compilation  
 
 Before the compilation run `npm install` to install all dependencies.
