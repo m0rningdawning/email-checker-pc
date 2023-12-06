@@ -12,16 +12,21 @@ This is a small application written in JS with Imap and mailparser modules that 
 Before the compilation run `npm install` to install all dependencies.
 
 - Windows:  
-`npx pkg@4.5.1 -t node14-win-x64 -o reader-windows.exe -d reader.js`
+```
+npx pkg@4.5.1 -t node14-win-x64 -o reader-windows.exe -d reader.js
+```
 
 - Linux:  
-`npx pkg@4.5.1 -t node14-linux-x64 -o reader-linux -d reader.js`
+```
+npx pkg@4.5.1 -t node14-linux-x64 -o reader-linux -d reader.js
+```
 
 - MacOS:  
-`npx pkg@4.5.1 -t node14-macos-x64 -o reader-macos -d reader.js`
+```
+npx pkg@4.5.1 -t node14-macos-x64 -o reader-macos -d reader.js
+```
 
-Alternatively, you can run the application using Node without the need to compile it:  
-`node reader.js`
+Alternatively, you can run the application using Node without the need to compile it. Just run: `node reader.js`.
 
 ## How to use  
 
@@ -50,4 +55,4 @@ Alternatively, you can run the application using Node without the need to compil
 
 ## Credits
 Inspired by:  
-https://github.com/KaganBaldiran/University_Mail_Checker
+- https://github.com/KaganBaldiran/University_Mail_Checker
